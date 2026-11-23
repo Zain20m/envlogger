@@ -1,0 +1,14 @@
+{
+  "name": "envlogger",
+  "version": "1.0.0",
+  "description": "Powerful Roblox/Luau environment behavior logger for obfuscated scripts",
+  "main": "src/run.js",
+  "bin": { "envlogger": "src/run.js" },
+  "scripts": {
+    "test": "bash tests/run_samples.sh",
+    "envlog": "node src/run.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Zain20m/envlogger.git" }
+}
